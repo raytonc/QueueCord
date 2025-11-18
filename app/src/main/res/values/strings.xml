@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QueueCord</string>
+
+    <!-- Input Section -->
+    <string name="message_label">Message to send</string>
+    <string name="message_placeholder">Type your message…</string>
+    <string name="add_to_queue">Add to Queue</string>
+
+    <!-- Message List -->
+    <string name="no_messages">No messages in queue</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Status Messages -->
+    <string name="status_offline_with_queue">Offline - Messages queued</string>
+    <string name="status_sending">Sending queued items…</string>
+    <string name="status_empty">No messages queued</string>
+    <string name="status_online_ready">Connected - Ready to send</string>
+    <string name="messages_queued">%d message(s) queued</string>
+
+    <!-- Webhook Dialog -->
+    <string name="webhook_dialog_title">Discord Webhook Setup</string>
+    <string name="webhook_dialog_message">Enter your Discord webhook URL to send messages:</string>
+    <string name="webhook_url_label">Webhook URL</string>
+    <string name="webhook_url_placeholder">https://discord.com/api/webhooks/…</string>
+    <string name="save">Save</string>
+    <string name="edit_webhook">Edit Webhook</string>
+
+    <!-- Error Messages -->
+    <string name="send_failed">Failed to send message. Will retry when reconnected.</string>
+</resources>
